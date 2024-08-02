@@ -121,7 +121,7 @@ GROUP BY g.Region, p.Product_name
 ORDER BY g.Region, TotalSales DESC;
  ```
 
-![Geo Sales Data](assets\Geo.jpg)
+![Geo Sales Data](assets/Geo.jpg)
 * Bar graph visulizing the salary for the Geo Sales Data for data analysts; ChatGPT generated this graph from my SQL query result *
 
 ### 2. Top_5_salespeople_by_total_sales
