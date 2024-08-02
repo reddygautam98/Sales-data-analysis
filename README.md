@@ -8,7 +8,7 @@
 
 - This sales data analysis aims to understand performance across regions, products, salespeople, and customers. The dataset includes four tables: Sales (transactional data), Geo (geographical information), Product (product details), and People (salesperson data). Key objectives are evaluating sales performance by region, product revenue, salesperson efficiency, and sales trends over time. Insights will guide strategic decisions, optimize pricing, inform product development, and enhance performance management. By leveraging these findings, the organization can improve resource allocation, boost profitability, and achieve sustainable growth.
 
-- Data hails from my [Business_Analytics] (/Business_Analytics/) it's packed with insight sales data analysis 
+- Data details from my [Business_Analytics](/Business_Analytics/) it's packed with insight sales data analysis 
 
 ### The Question i wanted to answer through my sql quries were 
 
