@@ -151,9 +151,7 @@ LIMIT 5;
 - ** Analytical Wizardry:** Leveled up my real-world puzzle-solveing skill, turning question into actionable, insightful sql quries
  -**copmlex query crafting :** -
 
- # Conclusion
-
- ### insight 
+ # Insight 
 
  Here are the insights and conclusions derived from the provided SQL queries:
 
