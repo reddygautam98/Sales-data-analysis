@@ -1,16 +1,8 @@
-/*How can I retrieve detailed sales information along with salesperson details, and how can I find the top two performing teams based on the total sales amount?*/
+/*How can I find the date in February with the highest sales amount, displaying the top sales amount for that date?*/
 
-SELECT
-    p.salesperson_name, p.SPID, p.Team, p.Location, s.GeoID, s.PID, s.SaleDate, s.Amount, s.Customers, s.Box
-FROM
-    people p
-JOIN
-    sales s ON p.SPID = s.SPID;
--- the LIMIT 2 restricts the result to the top two performing teams.
-SELECT p.Team, SUM(s.Amount) AS TotalSalesAmount
-FROM people p
-JOIN sales s ON p.SPID = s.SPID
-GROUP BY p.Team
-ORDER BY TotalSalesAmount DESC
-LIMIT 2;
-
+SELECT SaleDate, MAX(Amount) AS TopSalesAmount
+FROM sales 
+WHERE EXTRACT(MONTH FROM SaleDate) = 2
+GROUP BY SaleDate
+ORDER BY TopSalesAmount DESC
+LIMIT 1;

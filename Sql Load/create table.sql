@@ -53,3 +53,4 @@ ALTER TABLE People OWNER TO postgres;
 
 -- Set ownership of Sales table
 ALTER TABLE Sales OWNER TO postgres;
+
