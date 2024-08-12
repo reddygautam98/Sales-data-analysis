@@ -90,7 +90,7 @@ ORDER BY rp.Size, rp.TotalSalesAmount DESC;
 - Product Ranking and Trends: The use of ranking within each product size category provides a clear view of which products consistently perform well, highlighting potential trends in customer preferences based on product size and location.
 
 
-![Sales_Analysis_Reports](assets\Sales.jpg)
+![Sales_Analysis_Reports](assets/Sales.jpg)
 * stacked bar chart (left) comparing sales of different product sizes (LARGE vs. SMALL) and a pie chart (right) illustrating sales distribution by geography (USA, New Zealand, India, Canada). Key products include Milk Bars and Organic Choco S., with sales figures highlighted for both size and region.
 
 ### 2. How can I identify the top-performing salesperson in each geographic region based on total sales amount, and list them in alphabetical order by region name?
